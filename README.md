@@ -11,5 +11,4 @@ ii) Using quadratic basis functions and radial basis functions improved overall 
 
 iii) The shared covariance model performs better than logistic regression in terms of precision and recall. 
 
-# Disclaimer
-All files in the file fomlads.zip are not written by me, but obtained from course material in UCL's machine learning module taught by Dr. Luke Dickens. 
+
