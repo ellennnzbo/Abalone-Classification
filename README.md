@@ -1,5 +1,5 @@
 # Abalone-Classification
-For this project, whether the number of rings is greater or less than 10 (y=1 for rings > 10 and =0 otherwise) was predicted using machine learning binary classification techniques, namely Fisher's linear discriminant, Logistic Regression and the Shared Covariance Model. The evaluation methods used to compare model fit are precison-recall, ROC curve, and F1 score. Basis functions, namely quadratic basis functions and radial basis functions, were also used to map raw data into feature space to improve model fit. 
+For this project, whether the number of rings is greater or less than 10 (y=1 for rings > 10 and =0 otherwise) was predicted using machine learning binary classification techniques, namely Fisher's linear discriminant, Logistic Regression and the Shared Covariance Model. The evaluation methods used to compare model fit are classification accuracy, precison-recall, ROC curve, and F1 score. Basis functions, namely quadratic basis functions and radial basis functions, were also used to map raw data into feature space to improve model fit. 
 
 # Dataset 
 The data is obtained from UCI Machine Learning Repository - https://archive.ics.uci.edu/ml/datasets/abalone
