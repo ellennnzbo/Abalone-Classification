@@ -5,12 +5,12 @@ For this project, whether the number of rings is greater or less than 10 (y=1 fo
 The data is obtained from UCI Machine Learning Repository - https://archive.ics.uci.edu/ml/datasets/abalone
 
 # Files
-data_preprocessing: cleans data and encodes categorical variables with one-hot dummies.
-data_exploration.py: projects data into 1-dimensional space using Fisher's discriminant.
-basis_functions.py: evaluates polynomial basis functions and radial basis functions on all classification models.
-classify_roc.py: ROC evaluation.
-classify_prc.py: precision-recall evaluation.
-classify_accuracy.py: calcualtes classification accuracy.
+data_preprocessing: cleans data and encodes categorical variables with one-hot dummies   
+data_exploration.py: projects data into 1-dimensional space using Fisher's discriminant  
+basis_functions.py: evaluates polynomial basis functions and radial basis functions on all classification models  
+classify_roc.py: ROC evaluation  
+classify_prc.py: precision-recall evaluation  
+classify_accuracy.py: calcualtes classification accuracy  
 
 # Findings
 i) Precision-recall curves were more informative than ROC curves. This might be due to class imbalances in both the dataset, with target mean 0.346. As the calculation of precision and recall does not make use of true negatives, the indicator is only concerned with the correct prediction of the minority class, class 1. As ROC does not make this differentiation, it tends to be over-optimistic about model skill when there are class imbalances.
